@@ -1,0 +1,14 @@
+{
+    "name": "dwwing/composer",
+    "description": "test composer",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xiao dong",
+            "email": "1056712339@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
