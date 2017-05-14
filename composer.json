@@ -1,0 +1,24 @@
+{
+    "name": "administrator/test",
+    "type": "project",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
+    "autoload":{
+      "psr-4":{
+          "core\\":"core",
+          "web\\":"web"
+      },
+        "files":[
+            "core/function.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
